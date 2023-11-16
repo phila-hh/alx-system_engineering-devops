@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # This script configures Nginx to serve your page from the route /airbnb-onepage/
-server {
+"server {
     listen 80;
     server_name 127.0.0.1 107.23.94.198;
 
@@ -8,4 +8,4 @@ server {
         include proxy_params;
 	proxy_pass http://localhost:5000/airbnb-onepage/;
     }
-}
+}"
